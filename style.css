@@ -90,6 +90,37 @@ input:focus, textarea:focus {
   transform: scale(0.8);
 }
 
+.hero-img {
+  position: absolute;
+  right: 0;
+  margin-top: -560px; /*Moved my image to the top when it was below the texts*/
+  margin-left: 600px; /*moved my image to the right*/
+  background-image: url("/assets/me2.png");
+  width: 20rem;
+  height: 20rem;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 3px solid;
+  border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  transition: all 1s ease-in-out; 
+  animation: morph 8s ease-in-out infinite;
+}
+
+@keyframes morph {
+  0%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  100%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
+
+
 .title {
   font-size: 120px;
   margin-bottom: 12px;
@@ -131,6 +162,7 @@ input:focus, textarea:focus {
 nav,
 .scroll,
 .header {
+  margin-top: 31px;
   opacity: 1;
   visibility: visible;
   transition: all 600ms 800ms;
@@ -156,9 +188,17 @@ nav,
 .dark-theme section {
   background-color: #242424;
 }
+
+.logo {
+  color: #49aaf0;
+  cursor: pointer;
+  font-size: 25px;
+  filter: none; 
+}
+/* line 26
 .dark-theme #personal-logo {
   filter: none;
-}
+} */
 .dark-theme .scroll__icon {
   border-color: white;
 }
@@ -193,6 +233,7 @@ nav,
   font-size: 24px;
   line-height: 2;
   max-width: 450px;
+  margin-right: 40px;
 }
 
 .social__list {
@@ -445,6 +486,8 @@ nav {
   z-index: -1;
 }
 
+
+
 .modal__overlay--loading {
   background-color: #242424;
   font-size: 80px;
@@ -500,6 +543,7 @@ nav {
 .project {
   margin-bottom: 135px;
 }
+
 
 .project__img {
   width: 100%;
@@ -737,3 +781,4 @@ footer {
     padding: 40px;
   }
 }
+

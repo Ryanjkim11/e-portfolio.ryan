@@ -22,7 +22,8 @@
   <section id="landing-page" onmousemove="moveBackground(event)">
     <nav>
       <figure>
-        <img id="personal-logo" src="./assets/favicon.ico" alt="">
+        <h3 class="logo">RyanJ.Dev</h3>
+        <!--<img id="personal-logo" src="./assets/favicon.ico" alt="">--> 
       </figure>
       <ul class="nav__link--list">
         <li class="nav__link" onclick="toggleModal()">
@@ -55,29 +56,39 @@
         </li>
       </ul>
     </nav>
+      <img src="./assets/semi circle.svg" class="shape shape--0">
+      <img src="./assets/circle.svg" class="shape shape--1">
+      <img src="./assets/squiggly.svg" class="shape shape--2">
+      <img src="./assets/circle.svg" class="shape shape--3">
+      <img src="./assets/triangle.svg" class="shape shape--4">
+      <img src="./assets/circle.svg" class="shape shape--5">
+      <img src="./assets/squiggly.svg" class="shape shape--6">
+      <img src="./assets/circle.svg" class="shape shape--7">
+      <img src="./assets/semi circle.svg" class="shape shape--8"> 
     <header class="header">
       <div class="header__content">
-        <h1 class="title">Hey</h1>
-        <h1 class="title orange">I'm Ryan.</h1>
-        <p class="header__para">
-          I'm a <b class="orange">freelance web developer and CS Student at Baruch</b> with a strong passion for building user friendly web applications
-          with great user
-          experiences. Based in Queens, Ny🗽
-          <br>
-          Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
-        </p>
-        <div class="social__list">
-          <a href="https://www.linkedin.com/in/ryan-kim11/" target="_blank" class="social__link click">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="https://github.com/Ryanjkim11" target="_blank" class="social__link click">
-            <i class="fab fa-github"></i>
-          </a>
-          <a href="./assets/OFFICIAL_RESUME.pdf" target="_blank" class="social__link click">
-            <i class="fas fa-file-pdf"></i>
-          </a>
-        </div>
+            <h1 class="title">Hey👋🏻</h1>
+            <h1 class="title orange">I'm Ryan.</h1>
+              <p class="header__para">
+                I'm a <b class="orange"> web developer and CS Student at Baruch</b> with a strong passion for building user friendly web applications
+                with great user
+                experiences. Based in Queens, Ny🗽
+                <br> 
+                Here's a bit more <b class="orange click" onclick="toggleModal()">about me</b>.
+              </p>
+                <div class="social__list">
+                <a href="https://www.linkedin.com/in/ryan-kim11/" target="_blank" class="social__link click">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Ryanjkim11" target="_blank" class="social__link click">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="./assets/_resumetemplate.pdf" target="_blank" class="social__link click">
+                  <i class="fas fa-file-pdf"></i>
+                </a> 
+            </div>
       </div>
+     <div class="hero-img"></div> 
     </header>
     <a href="#">
       <button class="mail__btn click" onclick="toggleModal()">
@@ -92,13 +103,11 @@
         <h3 class="modal__title modal__title--about">Here's a bit about me.</h3>
         <h4 class="modal__sub-title modal__sub-title--about">Frontend Software Engineer.</h4>
         <p class="modal__para">
-          I'm a 19 year-old American <b class="orange">frontend software engineer</b> with experience developing
-          websites for small buisnesses and companies like <b class="orange">.....</b> and <b class="orange">....._</b>.
+          I'm a 19 year-old <b class="orange">frontend software engineer student</b> with experience developing
+          websites. I was <b class="orange">vice president of the coding club</b> at <b class="orange">Qcc</b> and transferred to <b class="orange">Baruch</b> for their new CS major.
           <br>
-          I currently solve extremely difficult engineering
-          problems every day with <b class="orange">React</b>, <b class="orange">TypeScript</b> and <b
-            class="orange">MobX</b>
-          in Canva's Video team.
+          I currently solve difficult engineering 
+          problems every day with a focus on staying up to date with the latest <b class="orange">front-end technologies </b>.
         </p>
         <div class="modal__languages">
           <figure class="modal__language">
@@ -146,7 +155,7 @@
       <div class="modal__half modal__contact">
         <i class="fas fa-times modal__exit click" onclick="toggleModal()"></i>
         <h3 class="modal__title modal__title--contact">
-          Let's have a chat!
+          Let's have a chat!☕︎
         </h3>
         <h3 class="modal__sub-title modal__sub-title--contact">
           I'm currently open to new opportunities.
@@ -176,15 +185,17 @@
         </div>
       </div>
     </div>
-    <img src="./assets/semi circle.svg" class="shape shape--0">
-    <img src="./assets/circle.svg" class="shape shape--1">
-    <img src="./assets/squiggly.svg" class="shape shape--2">
-    <img src="./assets/circle.svg" class="shape shape--3">
-    <img src="./assets/triangle.svg" class="shape shape--4">
-    <img src="./assets/circle.svg" class="shape shape--5">
-    <img src="./assets/squiggly.svg" class="shape shape--6">
-    <img src="./assets/circle.svg" class="shape shape--7">
-    <img src="./assets/semi circle.svg" class="shape shape--8">
+    <!--
+      <img src="./assets/semi circle.svg" class="shape shape--0">
+      <img src="./assets/circle.svg" class="shape shape--1">
+      <img src="./assets/squiggly.svg" class="shape shape--2">
+      <img src="./assets/circle.svg" class="shape shape--3">
+      <img src="./assets/triangle.svg" class="shape shape--4">
+      <img src="./assets/circle.svg" class="shape shape--5">
+      <img src="./assets/squiggly.svg" class="shape shape--6">
+      <img src="./assets/circle.svg" class="shape shape--7">
+      <img src="./assets/semi circle.svg" class="shape shape--8"> -->
+
   </section>
   <section id="projects">
     <div class="container">
@@ -195,24 +206,20 @@
         <ul class="project__list">
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/google mockup.png" class="project__img" alt="">
+              <img src="./assets/goldname.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Google In-Store
+                  3D Name
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS, JavaScript, Vue, Vuex
+                  Javascript, Vite, Vercel, Three.js/webgl
                 </h4>
                 <p class="project__description--para">
-                  Google In-Store is a platform allowing Google retail employees to report any issues with their
-                  store products. Once an issue is reported, it is posted to an API which populates a separate
-                  platform's frontend - which is used by Google's vendors to fix the issue as soon as possible. I was
-                  the sole
-                  front-end developer of this application.
+                  Built A simple app using tools to create a cool 3d Text of my name. Three.js is awesome
                 </p>
                 <div class="project__description--links">
-                  <a href="https://googleinstore.com.au/" class="project__description--link">
+                  <a href="https://goldname.vercel.app/" target="_blank" class="project__description--link">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
@@ -221,60 +228,48 @@
           </li>
           <li class="project">
             <div class="project__wrapper">
-              <img src="./assets/Frontend Simplified.png" class="project__img" alt="">
+              <img src="./assets/e-commerce.png" class="project__img" alt="">
               <div class="project__wrapper--bg"></div>
               <div class="project__description">
                 <h3 class="project__description--title">
-                  Frontend Simplified
+                  Bayside E-commerce web app
                 </h3>
                 <h4 class="project__description--sub-title">
-                  Html, CSS, JavaScript, Vue, Vuex, Nuxt, Firebase
+                  Html, CSS, JavaScript
                 </h4>
                 <p class="project__description--para">
-                  Frontend Simplified is a side project built to not only teach people how to code, but teach them how
-                  to get job ready in the quickest way possible. Users of this platform can join my 2,300+ member
-                  community
-                  including engineers from Google, Canva, Atlassian, Apple, Microsoft and Salesforce.
-                  The entire platform and courses was built by myself
-                  and I'm
-                  planning to
-                  release the MVP in the next few weeks.
-                </p>
-              </div>
-            </div>
-          </li>
-          <li class="project">
-            <div class="project__wrapper">
-              <img src="./assets/Eportfolio YT.png" class="project__img" alt="">
-              <div class="project__wrapper--bg"></div>
-              <div class="project__description">
-                <h3 class="project__description--title">
-                  E-Portfolio YouTube Tutorial
-                </h3>
-                <h4 class="project__description--sub-title">
-                  Html, CSS
-                </h4>
-                <p class="project__description--para">
-                  E-Portfolio built to help my social media followers learn basic CSS properties, layout and best
-                  practises -
-                  along with including tips along the way to help them land their first job.
+                  Built a prototype for my library e-commerce website 
                 </p>
                 <div class="project__description--links">
-                  <a href="https://www.youtube.com/watch?v=C8BlRjB3vYI" target="_blank"
-                    class="project__description--link">
-                    <i class="fab fa-youtube"></i>
-                  </a>
-                  <a href="https://github.com/Ryanjkim11" target="_blank"
-                    class="project__description--link">
-                    <i class="fab fa-github"></i>
-                  </a>
-                  <a href="https://github.com/Ryanjkim11" target="_blank" class="project__description--link">
+                  <a href=" https://nyecommerceprototype.vercel.app/" target="_blank" class="project__description--link">
                     <i class="fas fa-link"></i>
                   </a>
                 </div>
               </div>
             </div>
           </li>
+
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/production.png" class="project__img" alt="">
+              <div class="project__wrapper--bg"></div>
+              <div class="project__description">
+                <h3 class="project__description--title">
+                  In production Building the next generation of fun, innovative projects!
+                </h3>
+                <p class="project__description--para">
+                  Please be patient, thank you
+                </p>
+                <div class="project__description--links">
+                  <a href="https://inproduction.vercel.app/" target="_blank" class="project__description--link">
+                    <i class="fas fa-link"></i>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          
         </ul>
       </div>
     </div>
@@ -313,7 +308,7 @@
         ">
             Contact
           </a>
-          <a href="./assets/OFFICIAL_RESUME.pdf" target="_blank" class="
+          <a href="./assets/_resumetemplate.pdf" target="_blank" class="
           footer__social--link
           link__hover-effect
           link__hover-effect--white
